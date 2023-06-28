@@ -8,7 +8,7 @@
 const char *argp_program_version     = "Developement v0.1";
 const char *argp_program_bug_address = "<bug-gnu-utils@gnu.org>";
 
-static char doc[] = "Daemon program for conneting to tuya cloud.";
+static char doc[] = "Basic daemon program carcass.";
 
 /* A description of the arguments we accept. */
 static char args_doc[] = "DaviceID Device_Secret ProductID";
