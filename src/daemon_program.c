@@ -11,11 +11,11 @@ const char *argp_program_bug_address = "<bug-gnu-utils@gnu.org>";
 static char doc[] = "Basic daemon program carcass.";
 
 /* A description of the arguments we accept. */
-static char args_doc[] = "DaviceID Device_Secret ProductID";
+static char args_doc[] = "ARG1 ARG2 ARG3";
 
 /* Used by main to communicate with parse_opt. */
 struct arguments {
-	char *args[3]; /* DeviceID, DeviceSecret & ProductID */
+	char *args[3]; /* ARG1 ARG2 & ARG3 */
 };
 
 static struct argp_option options[] = {
